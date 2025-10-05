@@ -1,0 +1,49 @@
+{
+    "name": "leon-lcc-personal-website",
+    "version": "1.0.0",
+    "description": "My personal website built with Next.js and Chakra UI.",
+    "main": "index.js",
+    "scripts": {
+        "dev": "next dev -p 3000 -H localhost",
+        "build": "next build",
+        "prettier": "prettier --write .",
+        "lint": "next lint"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Leon-LCC/Personal-website.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/Leon-LCC/Personal-website/issues"
+    },
+    "homepage": "https://github.com/Leon-LCC/Personal-website#readme",
+    "dependencies": {
+        "@chakra-ui/icons": "^2.2.4",
+        "@chakra-ui/react": "^2.10.9",
+        "@chakra-ui/theme-tools": "^2.2.6",
+        "@emotion/react": "^11.14.0",
+        "@emotion/styled": "^11.14.1",
+        "@fontsource/bebas-neue": "^5.2.7",
+        "@nikolovlazar/chakra-ui-prose": "^1.2.1",
+        "@react-three/fiber": "^9.3.0",
+        "@types/three": "^0.180.0",
+        "framer-motion": "^12.23.22",
+        "glob": "^11.0.3",
+        "gray-matter": "^4.0.3",
+        "motion": "^12.23.22",
+        "next": "^15.5.4",
+        "react": "^19.2.0",
+        "react-dom": "^19.2.0",
+        "react-icons": "^5.5.0",
+        "react-markdown": "^10.1.0",
+        "react-syntax-highlighter": "^15.6.6",
+        "rehype-katex": "^7.0.1",
+        "remark-gemoji": "^8.0.0",
+        "remark-gfm": "^4.0.1",
+        "remark-math": "^6.0.0",
+        "three": "^0.180.0"
+    }
+}
