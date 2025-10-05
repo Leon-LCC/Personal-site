@@ -272,8 +272,9 @@ const PostPage = ({ frontmatter, markdownBody }) => {
                 <Box
                     w="100%"
                     mt="-40"
-                    py="10"
-                    px={{ base: 6, md: 16 }}
+                    pt={{ base: 20, md: 20, lg: 32 }}
+                    pb="10"
+                    px={{ base: 6, md: 16, lg: '18.5%' }}
                     bg={useColorModeValue('#ffffffff', '#0f0f0fff')}
                     borderRadius="3xl"
                     borderTopWidth={useColorModeValue('0px', '1px')}
